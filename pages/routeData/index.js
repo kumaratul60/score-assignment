@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Navbar from "../../components/Navbar";
 import Link from "next/link";
 
@@ -18,6 +19,9 @@ export const getStaticProps = async () => {
 const video = ({ data }) => {
   return (
     <>
+      <Head>
+        <title>score- dynamic </title>
+      </Head>
       <Navbar />
       {data.map((curElem) => {
         return (

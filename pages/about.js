@@ -8,7 +8,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>About Page </title>
+        <title>About me</title>
       </Head>
       <Navbar />
       <div style={{ textAlign: "center" }}>
